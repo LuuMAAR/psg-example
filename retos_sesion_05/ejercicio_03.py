@@ -1,0 +1,13 @@
+s=1000000;
+minuto=60;
+hora=60*minuto;
+dia=24*hora;
+semana=7*dia;
+resto=s-semana;
+d=resto//dia;
+rd=resto%dia;
+h=rd//hora;
+rh=rd%hora;
+m=rh//minuto;
+rm=rh%minuto;
+print(f"En {s} hay 1 semana {d} dias {h} horas {m} minutos {rm} segundos");
